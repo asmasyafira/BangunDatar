@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Persegipanjang"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persegi Panjang"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:padding="16dp"
+        android:id="@+id/Panjang"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Panjang"
+        android:src="@drawable/panjang"
+        android:id="@+id/gmbrpanjang"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Panjang"
+        android:layout_below="@id/gmbrpanjang"
+        android:id="@+id/etpanjang"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Lebar"
+        android:layout_below="@id/etpanjang"
+        android:id="@+id/etlebar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etlebar"
+        android:background="@color/button"
+        android:text="Hitung"
+        android:id="@+id/btnhitungpp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:layout_below="@id/btnhitungpp"
+        android:id="@+id/txtPanjang"/>
+
+
+
+</RelativeLayout>

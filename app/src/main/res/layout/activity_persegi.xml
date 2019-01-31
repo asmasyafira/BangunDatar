@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Persegi"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persegi"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="30sp"
+        android:id="@+id/persegi"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/persegi"
+        android:layout_below="@id/persegi"
+        android:id="@+id/gmbrpersegi"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gmbrpersegi"
+        android:hint="Masukan Sisi"
+        android:padding="20sp"
+        android:id="@+id/etpersegi"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etpersegi"
+        android:padding="10dp"
+        android:background="@color/button"
+        android:text="Hitung"
+        android:id="@+id/btnPersegi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:layout_below="@id/btnPersegi"
+        android:id="@+id/txtPersegi"/>
+
+</RelativeLayout>

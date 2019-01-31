@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/sstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bangun Datar"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sstext"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

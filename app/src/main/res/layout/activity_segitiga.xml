@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Segitiga"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segitiga"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:padding="16dp"
+        android:id="@+id/segitiga"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/segitiga"
+        android:layout_below="@+id/segitiga"
+        android:id="@+id/gmbrsegitiga"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Alas"
+        android:layout_below="@id/gmbrsegitiga"
+        android:id="@+id/etalas"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Tinggi"
+        android:layout_below="@id/etalas"
+        android:id="@+id/ettinggi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ettinggi"
+        android:padding="10dp"
+        android:background="@color/button"
+        android:text="Hitung"
+        android:id="@+id/btnSegitiga"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:layout_below="@id/btnSegitiga"
+        android:id="@+id/txtSegitiga"/>
+
+</RelativeLayout>
